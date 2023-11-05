@@ -7,3 +7,6 @@
 3. Removed Top Users by setting a threshold of the number of ratings to define the top users, and filter the data by excluding the top user ratings.
 4. Now convert the filtered data from explicit to implicit feedback data by providing a threshold creating a new column for implicit feedback and saving it as a CSV file.
 5. We get Pruned Implicit data which doesn't have the top user ratings.
+
+# Splitting Data
+Dividing the Data into Training and Testing sets.This is typically done randomly, and you can specify the percentage of data to allocate to each subset. I have used an 80-20 Data split where 80% data is used for training and 20% is used for testing. 
