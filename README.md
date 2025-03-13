@@ -2,6 +2,9 @@
 'Data pruning' is common practice in recommender-systems research. We define data pruning as removing instances from a dataset that would not be removed in the real world, i.e. when used by recommender systems in production environments.
 The research that follows seeks to investigate how various data pruning thresholds impact the overall effectiveness of recommendation systems. The study examines the impact of omitting top users, who have a high number of reviews, on the performance of these systems in comparison to standard methods that employ unpruned datasets. We aim to analyze the performance of Implicit ALS and KNN algorithms in ranking metrics across multiple datasets with varied threshold percentages, Top-N values, and combinations of hyperparameters.
 
+## Initial Evaluation using Suprise and Lenskit libraries
+
+
 ## Dependencies:
 1. Python - 3.8.18
 2. pandas - 1.5.3
